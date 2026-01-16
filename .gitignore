@@ -1,0 +1,6 @@
+*.csv
+*.xlsx
+data/
+.ipynb_checkpoints/
+Thumbs.db
+.DS_Store
