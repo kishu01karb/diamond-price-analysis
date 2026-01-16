@@ -14,7 +14,7 @@ from sklearn.ensemble import RandomForestRegressor
 @st.cache_resource
 def train_models():
     # Load dataset (must be available in repo or via URL)
-    df = pd.read_csv("diamonds.csv")
+    df = pd.read_csv("https://github.com/kishu01karb/diamond-price-analysis/blob/main/diamonds.csv")
 
     # Encode categorical variables
     le_cut = LabelEncoder()
