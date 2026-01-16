@@ -49,9 +49,9 @@ color =st.selectbox("Color", label_encoder['color'].classes_)
 clarity =st.selectbox("Clarity", label_encoder['clarity'].classes_)
 depth = st.number_input("Depth",min_value=0.0,step=0.1)
 table= st.number_input("Table",min_value=0.0,step=0.1)
-x= st.number_input("X(length in mm), min_value=0.0",step=0.01)
-y= st.number_input("Y(length in mm), min_value=0.0",step=0.01)
-z= st.number_input("Z(length in mm), min_value=0.0",step=0.01)
+x= st.number_input("X(length in mm)", min_value=0.0,step=0.01)
+y= st.number_input("Y(length in mm)", min_value=0.0,step=0.01)
+z= st.number_input("Z(length in mm)", min_value=0.0,step=0.01)
 
 if st.button("Predict Price"):
     predict_diamond_price(carat,cut,color ,clarity,depth,table,x,y,z)
