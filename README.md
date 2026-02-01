@@ -5,7 +5,7 @@ The project also includes a **Streamlit web application** for real-time price pr
 
 ---
 
-**Project is live at:** https://diamond-price-analysis-afjjg4hc5hsqktt6xuxtwx.streamlit.app/
+**Project is live at:** https://diamond-price-analysis-kplgg5eaopcvud6bqgk5a2.streamlit.app/
 
 ---
 
